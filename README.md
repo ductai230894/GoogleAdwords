@@ -285,10 +285,10 @@ namespace Test
                 }
 
                 Console.WriteLine(message);
-                Console.WriteLine("  Estimated average CPC: {0}", meanAverageCpc);
-                Console.WriteLine("  Estimated ad position: {0:0.00}", meanAveragePosition);
-                Console.WriteLine("  Estimated daily clicks: {0}", meanClicks);
-                Console.WriteLine("  Estimated daily cost: {0}", meanTotalCost);
+                Console.WriteLine("  Estimated average CPC: {0}", meanAverageCpc);   //always 0
+                Console.WriteLine("  Estimated ad position: {0:0.00}", meanAveragePosition);  //always 0
+                Console.WriteLine("  Estimated daily clicks: {0}", meanClicks);  //always 0
+                Console.WriteLine("  Estimated daily cost: {0}", meanTotalCost);  //always 0
             }
         }
     }
